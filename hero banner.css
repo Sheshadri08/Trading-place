@@ -1,0 +1,8 @@
+.hero {
+  background: linear-gradient(to right, #8ec5fc, #e0c3fc);
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px;
+}
