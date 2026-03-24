@@ -1,0 +1,16 @@
+// components/Navbar.js
+import React from "react";
+
+function Navbar({ cartCount }) {
+  return (
+    <div className="navbar">
+      <h1>🛒 Trading Place</h1>
+      <div>
+        <input type="text" placeholder="Search..." />
+        <span>Cart ({cartCount})</span>
+      </div>
+    </div>
+  );
+}
+
+export default Navbar;
