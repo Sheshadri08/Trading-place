@@ -1,0 +1,18 @@
+<div class="controls">
+  <input type="text" id="search" placeholder="Search products..." />
+
+  <select id="category">
+    <option value="all">All Categories</option>
+    <option value="Electronics">Electronics</option>
+    <option value="Fashion">Fashion</option>
+    <option value="Accessories">Accessories</option>
+    <option value="Jewelry">Jewelry</option>
+  </select>
+
+  <select id="sort">
+    <option value="default">Sort By</option>
+    <option value="low">Price: Low → High</option>
+    <option value="high">Price: High → Low</option>
+    <option value="rating">Rating</option>
+  </select>
+</div>
